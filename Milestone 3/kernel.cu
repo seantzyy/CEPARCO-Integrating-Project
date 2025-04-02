@@ -44,10 +44,9 @@ __global__ void ifwht_kernel(double* data, size_t N) {
 
 int main()
 {
-    // Add vectors in parallel.
     cudaError_t cudaStatus = FHWTCuda();
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "addWithCuda failed!");
+        fprintf(stderr, "FWHTCuda failed!");
         return 1;
     }
 
@@ -162,7 +161,7 @@ cudaError_t FHWTCuda()
     // Check for any errors launching the kernel
     cudaStatus = cudaGetLastError();
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "addKernel launch failed: %s\n", cudaGetErrorString(cudaStatus));
+        fprintf(stderr, "Kernel launch failed: %s\n", cudaGetErrorString(cudaStatus));
         goto Error;
     }
 
@@ -170,7 +169,7 @@ cudaError_t FHWTCuda()
     // any errors encountered during the launch.
     cudaStatus = cudaDeviceSynchronize();
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "cudaDeviceSynchronize returned error code %d after launching addKernel!\n", cudaStatus);
+        fprintf(stderr, "cudaDeviceSynchronize returned error code %d after launching Kernel!\n", cudaStatus);
         goto Error;
     }
 
