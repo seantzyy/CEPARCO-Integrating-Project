@@ -144,3 +144,4 @@ in C++ along with CUDA is correct.
 ![image](https://github.com/user-attachments/assets/c5361795-32c2-448f-b6c5-ad0694cf6d3e)
 
 ## Analysis
+The implementation of CUDA significantly outperforms MATLAB, demonstrating that GPU-based FWHT and IFWHT achieve superior speedup, especially for large data sizes. The results highlight CUDA's efficiency, with a total execution time of 14.5372 ms for FWHT and 13.0522 ms for IFWHT, compared to 94,167.3866 ms and 97,026.0474 ms in MATLAB, respectively. As the input size increases, CUDA's advantages become even more pronounced. For instance, at 2^20, the sequential C implementation takes 44 ms, whereas the CUDA implementation reduces execution time to 8.52 ms for FWHT, emphasizing its capability to efficiently handle larger datasets.
