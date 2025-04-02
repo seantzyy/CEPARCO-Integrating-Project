@@ -44,6 +44,17 @@ Matlab and CUDA.
 | 2.451 mS | Content Cell  | 74488.5234 | 
 | 10.3672 mS | Content Cell  | N/A | 
 | 44.0258 mS | Content Cell  | N/A | 
+
+## FOR IFWHT
+| **Sequential C** | **CUDA** | **MATLAB** |
+| ------------- | ------------- | ------------- |
+| 0.0288 mS | Content Cell  | 782.7536 | 
+| 0.1256 mS | Content Cell  | 3344.8146 | 
+| 0.549 mS | Content Cell  | 15551.295 | 
+| 2.451 mS | Content Cell  | 74488.5234 | 
+| 10.3672 mS | Content Cell  | N/A | 
+| 44.0258 mS | Content Cell  | N/A | 
+
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
 Matlab built-in functions. The results are stored in text files, which is then compared to the
