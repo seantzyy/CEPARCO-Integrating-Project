@@ -1,7 +1,7 @@
 # CEPARCO-Integrating-Project
 In Milestone 2, we were able to create the DFT and IDFT logic in C programming. In this
 final project update, we will discuss the last part of the project: the implementation of FWHT and
-IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab to compare the speed between
+IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab as a Built-in function to compare the speed between
 Matlab and CUDA.
 
 ## Screenshots of Execution Time (in ms, average of 5 loops):
