@@ -20,6 +20,18 @@ Matlab and CUDA.
 ![image](https://github.com/user-attachments/assets/9403c3cb-85a1-4572-bde2-67338e65ec4e)
 
 ### B. CUDA Integrated 
+#### 2 ^ 10
+![image](https://github.com/user-attachments/assets/3d5b4d1f-0164-4a0f-be13-c4bbcb21e3dd)
+#### 2 ^ 12
+![image](https://github.com/user-attachments/assets/719519f5-8a2e-4988-9403-a083e80c9509)
+#### 2 ^ 14
+![image](https://github.com/user-attachments/assets/cd576219-ef16-48fa-8c2f-fd8155ae03b0)
+#### 2 ^ 16
+![image](https://github.com/user-attachments/assets/f2867ee3-6a4b-4a63-90d7-47c440fa28f3
+#### 2 ^ 18
+![image](https://github.com/user-attachments/assets/c95ff49f-bcae-4734-baf4-3b7cd0f73b1b)
+#### 2 ^ 20
+![image](https://github.com/user-attachments/assets/d26513dc-0493-4097-9735-e63c4a9b27de)
 
 ### C. MATLAB Built-in Function
 #### 2 ^ 10
