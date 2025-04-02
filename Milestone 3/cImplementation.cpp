@@ -92,7 +92,7 @@ int main() {
         x[i] = (double)i;
     }
 
-    printf("*** FWHT (According to Matlab) ***\n");
+    printf("*** FWHT ***\n");
     printf("numElements = %lu\n", ARRAY_SIZE);
 
     // Store original data for file output
@@ -135,7 +135,7 @@ int main() {
         x[i] = (double)i;
     }
 
-    printf("*** IFWHT (According to Matlab) ***\n");
+    printf("*** IFWHT ***\n");
     printf("numElements = %lu\n", ARRAY_SIZE);
 
     total_time = 0.0;
