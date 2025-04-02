@@ -55,6 +55,8 @@ Matlab and CUDA.
 | 10.3672 mS | Content Cell  | N/A | 
 | 44.0258 mS | Content Cell  | N/A | 
 
+## Comparing Performance
+
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
 Matlab built-in functions. The results are stored in text files, which is then compared to the
