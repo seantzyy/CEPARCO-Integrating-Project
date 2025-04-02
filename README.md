@@ -14,8 +14,11 @@ In order to measure the FWHT function's execution duration, we first set up timi
 
 After initialization, we used cudaGetDevice() to identify the GPU device being used. We then allocated memory for the following arrays:
   x: Holds the original input values.
+  
   y: Stores the FWHT results.
+  
   d_x: Device array for input processing.
+  
   dy: Temporary array for intermediate transformations.
   
 Memory allocation was done using cudaMallocManaged() with ARRAY_BYTES. We also applied cudaMemAdvise() to optimize memory access patterns and performed page creation for these arrays.
@@ -33,8 +36,11 @@ Next, we set up the Inverse FWHT (IFWHT) function by prefetching x, y, d_x, and 
 
 The FWHT function processes the input array recursively. It accepts the following parameters:
   N: Size of the array.
+  
   x: Input array.
+  
   y: Output array.
+  
 We implemented the core FWHT logic using grid-stride loops in CUDA for efficient parallel execution:
 ![image](https://github.com/user-attachments/assets/390affb7-4d65-4b5c-b1e8-5c9ffb698564)
 
