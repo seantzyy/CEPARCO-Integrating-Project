@@ -91,7 +91,7 @@ The inverse FWHT function is implemented similarly, normalizing the final result
 ![image](https://github.com/user-attachments/assets/153a2f2c-6de9-416f-a51b-923aa58116aa)
 ![image](https://github.com/user-attachments/assets/31e1f168-027e-4076-b4ba-66e744e5686a)
 
-## FOR FWHT
+## Comparison Table for FWHT
 |  | **Sequential C** | **CUDA** | **MATLAB** |
 | ------------- | ------------- | ------------- | ------------- |
 | 2^10 | 0.0288 mS | 1.104  | 782.7536 | 
@@ -101,7 +101,7 @@ The inverse FWHT function is implemented similarly, normalizing the final result
 | 2^18 | 10.3672 mS | 2.2194| N/A | 
 | 2^20 | 44.0258 mS | 8.5298  | N/A | 
 
-## FOR IFWHT
+## Comparison Table for IFWHT
 |  | **Sequential C** | **CUDA** | **MATLAB** |
 | ------------- | ------------- | ------------- | ------------- |
 | 2^10 | 0.4 mS | 0.3172  | 656.433 | 
