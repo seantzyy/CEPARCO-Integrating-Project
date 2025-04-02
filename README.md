@@ -113,6 +113,8 @@ The inverse FWHT function is implemented similarly, normalizing the final result
 
 ## Comparing Performance through Execution Time
 
+
+
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
 Matlab built-in functions. The results are stored in text files, which is then compared to the
