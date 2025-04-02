@@ -36,24 +36,25 @@ Matlab and CUDA.
 ![image](https://github.com/user-attachments/assets/31e1f168-027e-4076-b4ba-66e744e5686a)
 
 ## FOR FWHT
-| **Sequential C** | **CUDA** | **MATLAB** |
-| ------------- | ------------- | ------------- |
-| 0.0288 mS | Content Cell  | 782.7536 | 
-| 0.1256 mS | Content Cell  | 3344.8146 | 
-| 0.549 mS | Content Cell  | 15551.295 | 
-| 2.451 mS | Content Cell  | 74488.5234 | 
-| 10.3672 mS | Content Cell  | N/A | 
-| 44.0258 mS | Content Cell  | N/A | 
+|  | **Sequential C** | **CUDA** | **MATLAB** |
+| ------------- | ------------- | ------------- | ------------- |
+| 2^10 | 0.0288 mS | Content Cell  | 782.7536 | 
+| 2^12 | 0.1256 mS | Content Cell  | 3344.8146 | 
+| 2^14 | 0.549 mS | Content Cell  | 15551.295 | 
+| 2^16 | 2.451 mS | Content Cell  | 74488.5234 | 
+| 2^18 | 10.3672 mS | Content Cell  | N/A | 
+| 2^20 | 44.0258 mS | Content Cell  | N/A | 
 
 ## FOR IFWHT
-| **Sequential C** | **CUDA** | **MATLAB** |
-| ------------- | ------------- | ------------- |
-| 0.0288 mS | Content Cell  | 782.7536 | 
-| 0.1256 mS | Content Cell  | 3344.8146 | 
-| 0.549 mS | Content Cell  | 15551.295 | 
-| 2.451 mS | Content Cell  | 74488.5234 | 
-| 10.3672 mS | Content Cell  | N/A | 
-| 44.0258 mS | Content Cell  | N/A | 
+|  | **Sequential C** | **CUDA** | **MATLAB** |
+| ------------- | ------------- | ------------- | ------------- |
+| 2^10 | 0.0288 mS | Content Cell  | 782.7536 | 
+| 2^12 | 0.1256 mS | Content Cell  | 3344.8146 | 
+| 2^14 | 0.549 mS | Content Cell  | 15551.295 | 
+| 2^16 | 2.451 mS | Content Cell  | 74488.5234 | 
+| 2^18 | 10.3672 mS | Content Cell  | N/A | 
+| 2^20 | 44.0258 mS | Content Cell  | N/A | 
+
 
 ## Comparing Performance
 
