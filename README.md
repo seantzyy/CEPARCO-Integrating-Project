@@ -4,7 +4,7 @@ final project update, we will discuss the last part of the project: the implemen
 IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab to compare the speed between
 Matlab and CUDA.
 
-## Comparison of Execution Time (in ms, average of 5 loops):
+## Screenshots of Execution Time (in ms, average of 5 loops):
 ### A. C Sequential 
 #### 2 ^ 10
 ![image](https://github.com/user-attachments/assets/26b56a97-e6ee-4147-9a7b-167e4609ad1e)
@@ -56,7 +56,7 @@ Matlab and CUDA.
 | 2^20 | 44.0258 mS | Content Cell  | N/A | 
 
 
-## Comparing Performance
+## Comparing Performance through Execution Time
 
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
