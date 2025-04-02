@@ -36,5 +36,11 @@ if it is faster than CUDA.
 ![image](https://github.com/user-attachments/assets/153a2f2c-6de9-416f-a51b-923aa58116aa)
 ![image](https://github.com/user-attachments/assets/31e1f168-027e-4076-b4ba-66e744e5686a)
 
-
+## Error Checking 
+For correctness checking, we output the results from our Matlab implementation and
+Matlab built-in functions. The results are stored in text files, which is then compared to the
+results in CUDA. We error-checked Matlab vs our C++ FWHT implementation. We error-checked for 
+2^10 until 2^20. We compared both of the output text files and concluded that our implementation 
+in C++ along with CUDA is correct. 
+![image](https://github.com/user-attachments/assets/c5361795-32c2-448f-b6c5-ad0694cf6d3e)
 
