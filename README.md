@@ -5,5 +5,9 @@ IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab to compare the speed b
 Matlab and CUDA. Lastly, we tried using the DFT & IDFT built-in functions in Matlab, and see
 if it is faster than CUDA. 
 
-## C IMPLEMENTATION EXECUTION TIME 
+## Comparison of Execution Time (in ms, average of 5 loops):
+### A. C Sequential 
+#### 2 ^ 20
+![image](https://github.com/user-attachments/assets/26b56a97-e6ee-4147-9a7b-167e4609ad1e)
+
 
