@@ -4,6 +4,41 @@ final project update, we will discuss the last part of the project: the implemen
 IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab as a Built-in function to compare the speed between
 Matlab and CUDA.
 
+## Discussion of parallel algorithms implemented in our program. Highlighting which part of the sequential part is converted to parallel algorithm
+![image](https://github.com/user-attachments/assets/95d74559-ccbb-43e1-8e0d-6f2544a44ac5)
+In order to measure the FWHT function's execution duration, we first set up timing variables like StartingTime, EndingTime, and ElapsedMicroseconds in the CUDA environment.  Additionally, we computed the total and average execution times using QueryPerformanceFrequency() and obtained the frequency of the performance counter.  The array size (ARRAY_SIZE) was defined as a power of two, such as 2^10, 2^12, 2^14, etc., and we used cudaMallocManaged() to allocate memory appropriately.  To decide how many iterations would be carried out in order to average the findings, a loop count (loope) was set.
+
+![image](https://github.com/user-attachments/assets/6049963f-402a-40fa-8e2e-073998035d0d)
+![image](https://github.com/user-attachments/assets/52a5d0ff-7a37-4ce6-996d-7fa88e1df9b6)
+After initialization, we used cudaGetDevice() to identify the GPU device being used. We then allocated memory for the following arrays:
+  x: Holds the original input values.
+
+  y: Stores the FWHT results.
+
+  d_x: Device array for input processing.
+
+  dy: Temporary array for intermediate transformations.
+Memory allocation was done using cudaMallocManaged() with ARRAY_BYTES. We also applied cudaMemAdvise() to optimize memory access patterns and performed page creation for these arrays.
+
+Before executing the FWHT function, we performed memory prefetching for x to ensure efficient memory access:
+![image](https://github.com/user-attachments/assets/1844fd10-43e1-4f78-8e39-aa720be33a5a)
+We then set up the CUDA kernel configuration where the number of elements, blocks, and threads were printed for verification. Finally, we started the program timer before launching the FWHT function.
+
+After executing the FWHT function, we recorded the ending time and computed:
+![image](https://github.com/user-attachments/assets/31c11b6f-6c3d-4701-8a31-072cd21e3bfa)
+We then printed the average execution time to compare FWHT performance in CUDA and other implementations (e.g., MATLAB).
+Next, we set up the Inverse FWHT (IFWHT) function by prefetching x, y, d_x, and dy and applying cudaMemAdvise() for better memory handling
+
+The FWHT function processes the input array recursively. It accepts the following parameters:
+  N: Size of the array.
+  x: Input array.
+  y: Output array.
+We implemented the core FWHT logic using grid-stride loops in CUDA for efficient parallel execution:
+![image](https://github.com/user-attachments/assets/390affb7-4d65-4b5c-b1e8-5c9ffb698564)
+
+The inverse FWHT function is implemented similarly, normalizing the final results
+![image](https://github.com/user-attachments/assets/9bde867b-abf4-4ca0-b43a-00f3864e33ba)
+
 ## Screenshots of Execution Time (in ms, average of 5 loops):
 ### A. C Sequential 
 #### 2 ^ 10
