@@ -20,5 +20,21 @@ if it is faster than CUDA.
 #### 2 ^ 20
 ![image](https://github.com/user-attachments/assets/9403c3cb-85a1-4572-bde2-67338e65ec4e)
 
+### B. CUDA Integrated 
+
+### C. MATLAB Built-in Function
+#### 2 ^ 10
+![image](https://github.com/user-attachments/assets/fb33f3a9-e3a1-4683-a643-83c1085af1fb)
+![image](https://github.com/user-attachments/assets/e394ddb2-79a6-4a60-8fe6-73d1a742783a)
+#### 2 ^ 12
+![image](https://github.com/user-attachments/assets/e704661c-bfa4-4bab-ac0f-a7f9284ac22d)
+![image](https://github.com/user-attachments/assets/ba45a3c0-a588-46f9-b03f-154149639332)
+#### 2 ^ 14
+![image](https://github.com/user-attachments/assets/7569b2e0-15f7-487a-8776-1443e4ffc4e1)
+![image](https://github.com/user-attachments/assets/99673904-2450-4d19-8b34-63b430feadb2)
+#### 2 ^ 16
+![image](https://github.com/user-attachments/assets/153a2f2c-6de9-416f-a51b-923aa58116aa)
+![image](https://github.com/user-attachments/assets/31e1f168-027e-4076-b4ba-66e744e5686a)
+
 
 
