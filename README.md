@@ -21,17 +21,17 @@ Matlab and CUDA.
 
 ### B. CUDA Integrated 
 #### 2 ^ 10
-![image](https://github.com/user-attachments/assets/3d5b4d1f-0164-4a0f-be13-c4bbcb21e3dd)
+![image](https://github.com/user-attachments/assets/289b013b-316c-4d54-a896-a0d220bf32d1)
 #### 2 ^ 12
-![image](https://github.com/user-attachments/assets/719519f5-8a2e-4988-9403-a083e80c9509)
+![image](https://github.com/user-attachments/assets/c58892ec-d804-41c3-ab0c-b83ad15cee5b)
 #### 2 ^ 14
-![image](https://github.com/user-attachments/assets/cd576219-ef16-48fa-8c2f-fd8155ae03b0)
+![image](https://github.com/user-attachments/assets/88c8dce6-0b9c-4e32-875f-5752b165e299)
 #### 2 ^ 16
-![image](https://github.com/user-attachments/assets/f2867ee3-6a4b-4a63-90d7-47c440fa28f3
+![image](https://github.com/user-attachments/assets/43cf0d9a-3487-4a22-9595-d8a3f94f9ba9)
 #### 2 ^ 18
-![image](https://github.com/user-attachments/assets/c95ff49f-bcae-4734-baf4-3b7cd0f73b1b)
+![image](https://github.com/user-attachments/assets/4b0636f0-84ad-4df4-ba33-73a180b25dae)
 #### 2 ^ 20
-![image](https://github.com/user-attachments/assets/d26513dc-0493-4097-9735-e63c4a9b27de)
+![image](https://github.com/user-attachments/assets/4d288a39-abec-492c-9635-01a27d6462d1)
 
 ### C. MATLAB Built-in Function
 #### 2 ^ 10
