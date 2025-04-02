@@ -122,7 +122,18 @@ The inverse FWHT function is implemented similarly, normalizing the final result
 | 2^18 | 10.3672 mS | 2.2194| N/A | 
 | 2^20 | 44.0258 mS | 8.5298  | N/A | 
 | Total Time | 55.0964 mS | 14.5372 mS | 94,167.3866 mS | 
-| Arithmetic Mean | 9.1827 mS | 2.4229 | 15,694 mS | 
+| Arithmetic Mean | 9.1827 mS | 2.4229 mS | 15,694 mS | 
+
+|  | **Sequential C** | **CUDA** | **MATLAB** |
+| ------------- | ------------- | ------------- | ------------- |
+| 2^10 | 0.4 mS | 0.3172  | 656.433 | 
+| 2^12 | 0.1692 mS | 0.5378  | 3,345.1854 | 
+| 2^14 | 0.767 mS | 0.6316  | 15,610.7164 | 
+| 2^16 | 3.161 mS | 1.095  | 77,413.7126 | 
+| 2^18 | 14.4688 mS | 2.3312  | N/A | 
+| 2^20 | 56.3722 mS | 8.771  | N/A | 
+| Total Time | 75.3382 mS | 13.0522 mS | 97,026.0474 mS | 
+| Arithmetic Mean | 12.5564 mS | 2.1754 mS | 16,171.0079 mS | 
 
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
@@ -132,3 +143,4 @@ results in CUDA. We error-checked Matlab vs our C++ FWHT implementation. We erro
 in C++ along with CUDA is correct. 
 ![image](https://github.com/user-attachments/assets/c5361795-32c2-448f-b6c5-ad0694cf6d3e)
 
+## Analysis
