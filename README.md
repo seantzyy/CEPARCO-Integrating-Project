@@ -36,9 +36,15 @@ if it is faster than CUDA.
 ![image](https://github.com/user-attachments/assets/153a2f2c-6de9-416f-a51b-923aa58116aa)
 ![image](https://github.com/user-attachments/assets/31e1f168-027e-4076-b4ba-66e744e5686a)
 
+## FOR FWHT
 | **Sequential C** | **CUDA** | **MATLAB** |
 | ------------- | ------------- | ------------- |
-
+| 0.0288 mS | Content Cell  | 782.7536 | 
+| 0.1256 mS | Content Cell  | 3344.8146 | 
+| 0.549 mS | Content Cell  | 15551.295 | 
+| 2.451 mS | Content Cell  | 74488.5234 | 
+| 10.3672 mS | Content Cell  | N/A | 
+| 44.0258 mS | Content Cell  | N/A | 
 ## Error Checking 
 For correctness checking, we output the results from our Matlab implementation and
 Matlab built-in functions. The results are stored in text files, which is then compared to the
