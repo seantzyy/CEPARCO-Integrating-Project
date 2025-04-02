@@ -5,6 +5,7 @@ IFWHT in CUDA. We also implemented FWHT & IFWHT in Matlab as a Built-in function
 Matlab and CUDA.
 
 ## Discussion of parallel algorithms implemented in our program. Highlighting which part of the sequential part is converted to parallel algorithm
+In the project, FWHT uses iterative algorithms to compute it efficiently. Since it uses a bunch of repeating computation. The use of CUDA could show signs of improvement in calculating the transformation. The CUDA will implement a faster speed up for FWHT and mainly in its mostly heavy computation area of program. Mainly, the use for loop in the transformation. Another part of the project is the IFWHT, where we need to normalize the result to return the original values of the arrays. CUDA can be used to speed up the process.
 ![image](https://github.com/user-attachments/assets/95d74559-ccbb-43e1-8e0d-6f2544a44ac5)
 
 In order to measure the FWHT function's execution duration, we first set up timing variables like StartingTime, EndingTime, and ElapsedMicroseconds in the CUDA environment.  Additionally, we computed the total and average execution times using QueryPerformanceFrequency() and obtained the frequency of the performance counter.  The array size (ARRAY_SIZE) was defined as a power of two, such as 2^10, 2^12, 2^14, etc., and we used cudaMallocManaged() to allocate memory appropriately.  To decide how many iterations would be carried out in order to average the findings, a loop count (loope) was set.
