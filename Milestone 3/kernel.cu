@@ -62,7 +62,7 @@ int main()
     return 0;
 }
 
-// Helper function for using CUDA to add vectors in parallel.
+// Helper function for using CUDA
 cudaError_t FHWTCuda()
 {
     LARGE_INTEGER StartingTime, EndingTime;
